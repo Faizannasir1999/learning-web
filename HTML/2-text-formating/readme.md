@@ -1,0 +1,3 @@
+ Day 2: Text Formatting + Lists + Links
+ Topics:- Text formatting tags: b tag, i tag, u tag, strong tag, em tag, mark tag, del tag, sup tag, sub-Lists: Ordered ol tag, Unordered ul tag, Definition dl tag- Links: a href tag, internal, external, target="_blank"
+ Tasks:- Create a page with a paragraph and apply at least 6 formatting tags- Create 2 lists: shopping list (unordered), steps for a recipe (ordered)- Add 3 types of links: internal link, external link, and email link
