@@ -1,0 +1,8 @@
+/* this will be the External CSS */
+.box{
+    background-color: lightblue;
+    padding: 10px;
+    border: 2px solid navy;
+    text-align: center;
+
+}
