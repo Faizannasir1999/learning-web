@@ -47,7 +47,7 @@
     gap: 30px;
 }
 .card{
-    background-color: #ffffff;
+    background-color: #ffffff; 
     border-radius: 15px;
     padding: 25px;
     margin: 25px;
@@ -56,17 +56,18 @@
     text-align: center;
     transition: transform 0.3 ease;
 }
+
 .card1{
     padding: 20px;
     margin: 10px;
 }
 .card2 {
-    padding: 30px;
-    margin: 20px;
+    padding: 20px;
+    margin: 10px;
   }
   .card3 {
-    padding: 40px;
-    margin: 30px;
+    padding: 20px;
+    margin: 10px;
   }
   .card:hover{
     transform: scale(1.05);
@@ -77,5 +78,5 @@
   }
   .card p{
     color: #718093;
-    /* font-size: 1rem; */
+    font-size: 1rem;
   }
