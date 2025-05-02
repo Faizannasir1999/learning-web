@@ -10,7 +10,7 @@ body {
     text-align: center;
     position: sticky;
     top: 0;
-    z-index: 3000;
+    z-index: 1;
   }
   
   .content {
@@ -18,21 +18,19 @@ body {
     padding: 20px;
   }
   .image-box{
-    position: absolute;
-     display: inline-block; 
-     top: 0;
-     right: 0;
-     
+    position: relative; 
+    left: 0;
+    top: 0;
   }
   
   .caption {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    left: 0px;
+    bottom: 45px;
     background-color: rgba(0, 0, 0, 0.6);
     color: red;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 20px 10px;
+    /* border-radius: 5px; */
   }
   
   .floating-btn {
