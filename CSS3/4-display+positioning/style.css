@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .sticky-header {
+    background-color:blueviolet;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 3000;
+  }
+  
+  .content {
+    height: 500px; /* just to make scroll visible */
+    padding: 20px;
+  }
+  .image-box{
+    position: absolute;
+     display: inline-block; 
+     top: 0;
+     right: 0;
+     
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  
+  
