@@ -19,14 +19,19 @@ body {
   }
   .image-box{
     position: relative; 
-    left: 0;
-    top: 0;
+    /* left: 0; */
+    /* top: 0; */
+    border: 2px solid green;
+  }
+
+  img{
+    width: 100vw;
   }
   
   .caption {
     position: absolute;
-    left: 0px;
-    bottom: 45px;
+    /* left: 0px;
+    bottom: 45px; */
     background-color: rgba(0, 0, 0, 0.6);
     color: red;
     padding: 20px 10px;
