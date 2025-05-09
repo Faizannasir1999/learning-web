@@ -1,0 +1,54 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.hero {
+  height: calc(100vh - 60px); /* subtracts hypothetical navbar height */
+  width: 100%;
+
+  background: linear-gradient(135deg, #667eea, #6d14c7);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 6vw, 4rem); /* responsive heading */
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-size: clamp(1rem, 3vw, 1.5rem); /* responsive subtitle */
+  margin-bottom: 30px;
+}
+
+.hero button {
+  padding: 12px 28px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  color: #764ba2;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #e0e0e0;
+}
