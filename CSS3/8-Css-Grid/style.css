@@ -22,7 +22,7 @@
 
     .blog-layout {
       display: grid;
-      grid-template-columns: 2fr 1fr; /* Main content and sidebar */
+      grid-template-columns: 2fr 1fr;
       grid-template-rows: auto;
       gap: 20px;
     }
