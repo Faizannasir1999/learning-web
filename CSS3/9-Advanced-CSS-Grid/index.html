@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard Layout</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: sans-serif;
+    }
+
+    .dashboard {
+        text-align: center;
+      display: grid;
+      grid-template-areas:
+        "header  header"
+        "sidebar main"
+        "footer  footer";
+      grid-template-columns: 200px 1fr;
+      grid-template-rows: 60px 1fr 50px;
+      height: 100vh;
+    }
+
+    .header {
+        text-align: center;
+      grid-area: header;
+      background: #1e293b;
+      color: white;
+      display: flex;
+      align-items: center;
+      /* padding: 0 20px; */
+      padding-left: 606px;
+    }
+
+    .sidebar {
+      grid-area: sidebar;
+      background: #334155;
+      color: white;
+      padding: 20px;
+      align-items: center;
+    }
+
+    .main {
+      grid-area: main;
+      background: #f1f5f9;
+      padding: 20px;
+    }
+
+    .footer {
+      grid-area: footer;
+      background: #cbd5e1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="dashboard">
+    <div class="header">📊 Dashboard Header</div>
+    <div class="sidebar">
+      <p>🏠 Home</p>
+      <p>📁 Files</p>
+      <p>⚙️ Settings</p>
+    </div>
+    <div class="main">
+      <h2>Main Content Area</h2>
+      <p>This is where you can display analytics, charts, etc.</p>
+    </div>
+    <div class="footer">© 2025 Dashboard App</div>
+  </div>
+
+</body>
+</html>
