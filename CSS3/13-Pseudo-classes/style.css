@@ -1,0 +1,13 @@
+.tip::before{
+    content: "💡 ";
+    font-size: 1.9rem;
+}
+.fruit-list li:nth-child(odd) {
+  background-color: #e0f7fa;
+  /* display: inline block; */
+}
+
+.fruit-list li:nth-child(even) {
+  background-color: #f1f8e9;
+  /* display: inline block; */
+}
