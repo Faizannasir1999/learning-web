@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    width: 300px;
+    padding: 20px;
+    /* height: 70px; */
+    box-shadow: 0 4px 8px rgba(211, 84, 84, 0.2);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin: 50px auto;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    /* background: radial-gradient(circle, #fbc2eb, #a6c1ee); */
+
+}
+h2{ 
+    padding-top: 10px;
+} 
+.hero {
+  height: 100vh;
+  background: radial-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+
