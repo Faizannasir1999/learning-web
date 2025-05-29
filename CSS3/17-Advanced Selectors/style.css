@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #0d6efd;
+    --bg-gradient: linear-gradient(135deg, #3b6db9, #1e0b3d);
+    --text-color: #333;
+    --bg-color: #fff;
+    --card-color: #fff;
+    --padding: 1rem;
+    --font-main: 'Segoe UI', sans-serif;
+    --margin: 1rem;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    line-height: 1.6;
+    transition: background 0.5s, color 0.5s;
+}
+
+header {
+    background: var(--bg-gradient);
+    color: white;
+    padding: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+h1:hover{
+    color: orange;
+}
+
+
+nav a {
+    color: white;
+    margin-left: var(--margin);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+.hero {
+    background-image: url(elisha-terada-LOAqoMw1vow-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem var(--padding);
+    text-align: center;
+    color: white;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.6);
+    animation: fadeIn 2s ease-in;
+}
+.hero h2{
+    /* font-size: 2.5rem; */
+    /* margin-bottom: 1rem; */
+}
+/* .about, .projects, .contacts{ */
+    /* padding: 3rem var(--padding); */
+    /* animation: slideUp 1s ease-in-out; */
+}
+.about p, .contacts p {
+      max-width: 600px;
+      margin: 1rem auto;
+    }
