@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Work</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+      color: #1f2937;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: #7c3aed;
+      margin-bottom: 0.5rem;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #6b7280;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .filters {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+    }
+
+    .filter-button {
+      padding: 0.5rem 1rem;
+      border-radius: 9999px;
+      border: none;
+      background-color: #f3f4f6;
+      color: #374151;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .filter-button.active {
+      background-color: #7c3aed;
+      color: white;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .project-card {
+      background-color: white;
+      border-radius: 1rem;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+
+    .project-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: #111827;
+    }
+
+    .project-description {
+      color: #6b7280;
+      font-size: 0.95rem;
+    }
+
+    .tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: auto;
+    }
+
+    .tag {
+      font-size: 0.75rem;
+      padding: 0.25rem 0.75rem;
+      background-color: #f3f4f6;
+      border-radius: 9999px;
+      color: #374151;
+    }
+       footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f9fafb;
+      padding: 1rem 2rem;
+      margin-top: 3rem;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    .footer-left {
+      color: #9ca3af;
+      font-size: 0.875rem;
+    }
+
+    .footer-icons {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .footer-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 9999px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .footer-icon img {
+      width: 20px;
+      height: 20px;
+    }
+
+
+    @media (max-width: 768px) {
+      .section-title {
+        font-size: 1.75rem;
+      }
+
+      .project-card img {
+        height: 140px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h2 class="section-title">My Work</h2>
+    <p class="section-subtitle">A collection of projects I've worked on</p>
+
+    <div class="filters">
+      <button class="filter-button active">All</button>
+      <button class="filter-button">HTML/CSS</button>
+      <button class="filter-button">JavaScript</button>
+      <button class="filter-button">React</button>
+    </div>
+
+    <div class="projects">
+      <div class="project-card">
+        <img src="eflyer.jpg" alt="E-commerce Website">
+        <h3 class="project-title">E-commerce Website</h3>
+        <p class="project-description">A fully responsive e-commerce platform built with modern web technologies.</p>
+        <div class="tech-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">React</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images.jpeg" alt="Weather Dashboard">
+        <h3 class="project-title">Weather Dashboard</h3>
+        <p class="project-description">A clean weather application that provides real-time weather with responsive design.</p>
+        <div class="tech-tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">API</span>
+          <span class="tag">CSS Grid</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="istockphoto-1492645918-612x612.jpg" alt="Task Manager">
+        <h3 class="project-title">Task Management App</h3>
+        <p class="project-description">A productivity app for managing tasks with drag-and-drop and team features.</p>
+        <div class="tech-tags">
+          <span class="tag">React</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">CSS Modules</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="flat-design-portfolio-template-design_52683-80880.avif" alt="Portfolio Website">
+        <h3 class="project-title">Creative Portfolio</h3>
+        <p class="project-description">A portfolio website for a creative agency with animations and smooth transitions.</p>
+        <div class="tech-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">SCSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">GSAP</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Faizan Nasir. All rights reserved.</p>
+    <div class="footer-icons">
+      <a href="#"><i class="fas fa-globe"></i></a>
+      <a href="#"><i class="fas fa-briefcase"></i></a>
+      <a href="#"><i class="fas fa-user-ninja"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
