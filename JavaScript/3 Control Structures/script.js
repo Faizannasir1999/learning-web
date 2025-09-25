@@ -21,7 +21,7 @@ if (marks >= 90) {
 
 
 // task 2//
-let dayNumber = 2; 
+let dayNumber = 6; 
 
 switch (dayNumber) {
   case 1:
