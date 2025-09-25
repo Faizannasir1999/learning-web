@@ -48,3 +48,12 @@ switch (dayNumber) {
   default:
     console.log("Invalid number! Please enter a number between 1 and 7.");
 }
+
+switch (key) {
+  case value:
+    
+    break;
+
+  default:
+    break;
+}
